@@ -1,0 +1,50 @@
+GET http://localhost:8080/albums
+
+###
+GET http://localhost:8080/albums/2
+
+###
+POST http://localhost:8080/albums
+Content-Type: application/json
+
+{
+  "id":0,
+  "name": "More",
+  "authorId": 2,
+  "year": 2014,
+  "count": 14,
+  "length": 82,
+  "liked": true,
+  "picUrl": "https://img.com/123"
+}
+
+###
+DELETE http://localhost:8080/albums/3/
+
+###
+GET http://localhost:8080/albums/search/?name=More
+
+###
+GET http://localhost:8080/albums/authors/2
+
+###
+GET http://localhost:8080/albums/?search=Pimp
+
+###
+GET http://localhost:8080/author
+
+###
+GET http://localhost:8080/author/2
+
+###
+POST http://localhost:8080/author
+Content-Type: application/json
+
+{
+  "id":0,
+  "name": "Logic",
+  "picUrl": "https://img.com/123"
+}
+
+###
+DELETE http://localhost:8080/author/3
