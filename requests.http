@@ -7,6 +7,8 @@ GET https://project-spotify.herokuapp.com/albums/1
 ###
 GET https://project-spotify.herokuapp.com/albums/save?id=0&name=More&authorId=3&year=2014&count=15&length=85&liked=true&picUrl=https://img.com/i78asd2k
 
+###
+
 
 ###
 
@@ -50,6 +52,11 @@ Content-Type: application/json
   "name": "Logic",
   "picUrl": "https://img.com/i78asd2k"
 }
+
+###
+
+GET https://project-spotify.herokuapp.com/author/save?id=0&name=Logic&picUrl=https://img.com/i78asd2k
+
 
 ###
 
