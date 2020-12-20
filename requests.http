@@ -5,10 +5,7 @@ GET https://project-spotify.herokuapp.com/albums
 GET https://project-spotify.herokuapp.com/albums/1
 
 ###
-GET https://project-spotify.herokuapp.com/albums/save?id=0&name=More&authorId=3&year=2014&count=15&length=85&liked=true&picUrl=https://img.com/i78asd2k
-
-###
-
+GET https://project-spotify.herokuapp.com/albums/save?id=0&name=Tests&authorId=2&year=2014&count=15&length=85&liked=true&picUrl=https://img.com/i78asd2k
 
 ###
 
@@ -28,7 +25,7 @@ Content-Type: application/json
 
 ###
 
-GET https://project-spotify.herokuapp.com/albums/search?name=More
+GET https://project-spotify.herokuapp.com/albums/search?name=AlbumName
 
 ###
 
@@ -36,7 +33,9 @@ DELETE https://project-spotify.herokuapp.com/albums/3
 
 ###
 
-GET https://project-spotify.herokuapp.com/author
+###
+
+GET https://project-spotify.herokuapp.com/authors/1
 
 ###
 
@@ -55,7 +54,7 @@ Content-Type: application/json
 
 ###
 
-GET https://project-spotify.herokuapp.com/author/save?id=0&name=Logic&picUrl=https://img.com/i78asd2k
+GET https://project-spotify.herokuapp.com/author/save?id=0&name=Logic&picUrl=pictureurl
 
 
 ###
