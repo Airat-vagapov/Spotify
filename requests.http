@@ -48,7 +48,7 @@ GET https://project-spotify.herokuapp.com/author/2
 
 ###
 
-GET https://project-spotify.herokuapp.com/author
+POST https://project-spotify.herokuapp.com/author
 Content-Type: application/json
 
 {
