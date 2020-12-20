@@ -5,7 +5,7 @@ GET https://project-spotify.herokuapp.com/albums
 GET https://project-spotify.herokuapp.com/albums/1
 
 ###
-GET https://project-spotify.herokuapp.com/albums/save?id=0&name=Tests&authorId=2&year=2014&count=15&length=85&liked=true&picUrl=https://img.com/i78asd2k
+GET https://project-spotify.herokuapp.com/albums/save?id=0&name=Tests&authorId=1&year=2014&count=15&length=85&liked=true&picUrl=PictureUrl
 
 ###
 
@@ -15,7 +15,7 @@ Content-Type: application/json
 {
   "id": 0,
   "name": "More",
-  "authorId": 3,
+  "authorId": 2,
   "year": 2014,
   "count": 15,
   "length": 85,
@@ -25,17 +25,22 @@ Content-Type: application/json
 
 ###
 
-GET https://project-spotify.herokuapp.com/albums/search?name=AlbumName
+GET https://project-spotify.herokuapp.com/albums/search?name=More
 
 ###
 
-DELETE https://project-spotify.herokuapp.com/albums/3
+DELETE https://project-spotify.herokuapp.com/albums/5
 
 ###
 
 ###
 
-GET https://project-spotify.herokuapp.com/authors/1
+GET https://project-spotify.herokuapp.com/albums/authors/1
+
+
+###
+
+GET https://project-spotify.herokuapp.com/author/
 
 ###
 
@@ -51,11 +56,6 @@ Content-Type: application/json
   "name": "Logic",
   "picUrl": "https://img.com/i78asd2k"
 }
-
-###
-
-GET https://project-spotify.herokuapp.com/author/save?id=0&name=Logic&picUrl=pictureurl
-
 
 ###
 

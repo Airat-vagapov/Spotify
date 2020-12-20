@@ -33,7 +33,7 @@ public class AlbumController {
         return albumManager.save(item);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/{id}/")
     public Album removeById(@PathVariable long id) {
         return albumManager.removeById(id);
     }
